@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="" method="get">
+        <div>
+            <label for="nombre">Nombre: </label>
+            <input type="text" name="nombre" placeholder="Escribe tu nombre" id="nombre" required>
+        </div>
+        <div>
+            <label for="apellidos">Apellidos: </label>
+            <input type="text" name="apellidos" placeholder="Escribe tus apellidos" id="apellidos" required>
+        </div>
+        <div>
+            <label for="direccion">Dirección</label>
+            <br>
+            &nbsp;&nbsp;&nbsp;<label for="tipo_via">Tipo de vía: </label>
+            <input type="text" name="tipo_via" id="tipo_via">
+            <br>
+            &nbsp;&nbsp;&nbsp;<label for="nombre_via">Nombre de la vía: </label>
+            <input type="text" name="nombre_via" id="nombre_via">
+            <br>
+            &nbsp;&nbsp;&nbsp;<label for="codigo_postal">Código postal: </label>
+            <input type="text" name="codigo_postal" id="codigo_postal">
+            <br>
+            &nbsp;&nbsp;&nbsp;<label for="ciudad">Ciudad: </label>
+            <input type="text" name="ciudad" id="ciudad">
+            <br>
+            &nbsp;&nbsp;&nbsp;<label for="provincia">Provincia: </label>
+            <input type="text" name="provincia" id="provincia">
+            <br>
+            &nbsp;&nbsp;&nbsp;<label for="pais">País: </label>
+            <select name="pais" id="pais">
+                <option value="es">España</option>
+                <option value="fr">Francia</option>
+                <option value="pt">Portugal</option>
+                <option value="ad">Andorra</option>
+            </select>
+        </div>
+        <div>
+            <label for="fecha">Fecha de nacimiento: </label>
+            <input type="date" name="fecha" id="fecha">
+        </div>
+        <div>
+            <label for="nota_media">Nota media en la universidad: </label>
+            <input type="number" step="0.01" min="1" max="10">
+        </div>
+        <div>
+            <label for="telefono">Número de teléfono: </label>
+            <input type="text" name="telefono" id="telefono" pattern="[9|6|7][0-9]{8}">
+        </div>
+        <div>
+            <label for="email">Correo electrónico: </label>
+            <input type="email" name="email" id="email">
+        </div>
+        <div>
+            <label for="contraseña">Contraseña: </label>
+            <input type="password" name="pass" id="pass" required pattern="[a-z0-9]{8,}">
+        </div>
+        <div>
+            <label for="contraseña">Repite la contraseña: </label>
+            <input type="password" name="pass" id="pass" required pattern="[a-z0-9]{8,}">
+        </div>
+        <div>
+            <label for="tipo_cuenta">Tipo de cuenta: </label>
+            <br>
+            <label for="gratuita">Gratuita. Usos limitados de la aplicación. </label>
+            <input type="radio" name="tipo_cuenta" id="gratuita">
+            <br>
+            <label for="basica">Básica. Uso ilimitado de la aplicación con herramientas bloqueadas</label>
+            <input type="radio" name="tipo_cuenta" id="basica">
+            <br>
+            <label for="premium">Premium. Uso ilimitado de la aplicación con todas sus funcionalidades</label>
+            <input type="radio" name="tipo_cuenta" id="premium">
+        </div>
+        <div>
+            <label for="descripcion">Introduzca una breve descripción: </label>
+            <textarea name="descripcion" id="descripcion" cols="30" rows="1"></textarea>
+        </div>
+        <div>
+            <label for="perfil">Foto de perfil: </label>
+            <input type="image" src="\4UPKL26K5ZICHFC6UIAU5DDHWU.jpg" alt="">
+        </div>
+        <div>
+            <label for="cv">Seleccione su CV: </label>
+            <input type="file">
+        </div>
+
+    </form>
+</body>
+</html>
