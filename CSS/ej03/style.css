@@ -1,0 +1,76 @@
+.rectangular{
+    width: 50px;
+    height: 50px;
+    margin: 10px;
+    display: inline-block;
+    border-radius: 0;
+    cursor:crosshair;
+}
+
+.redondeado{
+    width: 50px;
+    height: 50px;
+    margin: 10px;
+    display: inline-block;
+    border-radius: 20%;
+    cursor: cell;
+}
+
+.redondo{
+    width: 50px;
+    height: 50px;
+    margin: 10px;
+    display: inline-block;
+    border-radius: 100%;
+    cursor: not-allowed;
+    
+}
+
+
+.col1{
+    border-style: dashed; 
+    border-bottom: 0px;
+    border-top: 0px;
+}
+.col2{
+    border-style:dotted; 
+    border-bottom: 0px;
+    border-top: 0px;
+}
+.col3{
+    border-style:double; 
+    border-bottom: 0px;
+    border-top: 0px;
+}
+.col4{
+    border-style:groove; 
+    border-bottom: 0px;
+    border-top: 0px;
+}
+.col5{
+    border-style:solid; 
+    border-bottom: 0px;
+    border-top: 0px;
+}
+
+.rojo{
+   background-color: red;
+   border: 3px solid pink;
+   
+}
+.verde{
+    background-color: green;
+    border: 3px solid red;
+}
+.azul{
+    background-color: blue;
+    border: 3px solid green;
+}
+.amarillo{
+    background-color: yellow;
+    border: 3px solid blue;
+}
+.rosa{
+    background-color: pink;
+    border: 3px solid yellow;
+}
